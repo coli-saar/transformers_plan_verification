@@ -1,0 +1,14 @@
+{
+  "data_dir": "./datasets/lightsout_examples_exponential",
+  "domain_file": "./datasets/domain_files/lights_out/domain_exponential.pddl",
+  "output_file": "train.jsonl",
+  "conditional": false,
+  "anonymization": "partial",
+  "min_len": 11,
+  "max_len": 20,
+  "x_dim": 5,
+  "y_dim": 5,
+  "n_per_len": 1,
+  "rem_individual_files": true,
+  "keep_both": false
+}

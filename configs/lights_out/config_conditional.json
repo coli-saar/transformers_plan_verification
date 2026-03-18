@@ -1,0 +1,13 @@
+{
+  "data_dir": "./datasets/lightsout_examples_conditional",
+  "domain_file": "./datasets/domain_files/lights_out/domain_conditional.pddl",
+  "output_file": "train.jsonl",
+  "conditional": true,
+  "min_len": 11,
+  "max_len": 20,
+  "x_dim": 5,
+  "y_dim": 5,
+  "random_ind_incorrect": false,
+  "n_per_len": 1,
+  "rem_individual_files": true
+}

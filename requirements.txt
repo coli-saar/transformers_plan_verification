@@ -1,0 +1,10 @@
+torch
+transformers
+tokenizers
+datasets
+pandas
+wandb
+pyyaml
+tqdm
+tarski==0.8.2
+pymimir==0.9.62

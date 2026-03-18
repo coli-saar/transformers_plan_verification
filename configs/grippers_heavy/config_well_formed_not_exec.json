@@ -1,0 +1,22 @@
+{
+  "dataset_dir": "./datasets/grippers_heavy_examples_wf_not_exec",
+  "domain_file": "./datasets/domain_files/grippers_heavy/domain_wf.pddl",
+  "output_file": "train.jsonl",
+
+  "min_ratio_ball": 0.6,
+  "max_ratio_ball": 0.85,
+  "min_ratio_room": 0.2,
+  "max_ratio_room": 0.5,
+  "min_ratio_heavy": 0.5,
+  "max_ratio_heavy": 0.85,
+  "max_balls_id": 270,
+  "max_rooms_id": 170,
+
+  "incomplete": false,
+  "version": "well_formed",
+
+  "min_len": 11,
+  "max_len": 20,
+  "n_per_len": 1,
+  "rem_individual_files": true
+}
