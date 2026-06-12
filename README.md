@@ -1,9 +1,7 @@
 # Transformer Plan Verification
 
-This is the repository for our paper, 
-"On the ability of Transformers to verify plans".
-
-**Note:** This repository contains an initial version of our codebase and we are still in the process of updating the repository to the extended, more efficient version. 
+This is the repository for our ICML'26 paper, 
+["On the ability of Transformers to verify plans"](https://arxiv.org/abs/2603.19954).
 
 ## Data Generation
 
@@ -23,3 +21,14 @@ We use the `training` directory to train the models for the experiments.
 
 We process data differently for each domain, each of which has a different folder. 
 Within each domain folder, we also have a ``run.py`` file that generates the experiments (for HTCondor).
+
+
+## Citation
+```
+@inproceedings{sarrof2026abilitytransformersverifyplans,
+      title={On the Ability of Transformers to Verify Plans}, 
+      author={Yash Sarrof and Yupei Du and Katharina Stein and Alexander Koller and Sylvie Thiébaux and Michael Hahn},
+      booktitle={Forty-third International Conference on Machine Learning},
+      year={2026}
+}
+```
